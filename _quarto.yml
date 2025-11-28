@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Pedoman Pelaksanaan Tugas Akhir, Tesis dan Disertasi"
+
+  navbar:
+      left:
+        - href: index.qmd
+          text: Home
+        - about.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
