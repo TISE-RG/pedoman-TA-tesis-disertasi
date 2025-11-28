@@ -1,0 +1,31 @@
+# Gagasan Fundamental
+
+Konsep **Discovery (Penemuan)** adalah landasan realitas dalam kerangka Rekayasa Cerdas Triune-Intelligence (TISE), dan merupakan fokus utama dari **Lapisan Fundamental (F)** dalam arsitektur pengembangan W-Model.
+
+Berikut adalah penjelasan mengenai proses *discovery* ini sebagai landasan rekayasa, termasuk bagaimana ia mengarah pada penciptaan *energon* yang dapat melakukan kerja dan invensi instrumen kunci:
+
+## 1. Discovery sebagai Landasan Realitas Rekayasa
+
+Discovery dimulai di **Lapisan Fundamental** TISE, yang merupakan fondasi dari seluruh arsitektur rekayasa. Tujuan utama Lapisan Fundamental adalah untuk **menemukan prinsip-prinsip konversi kapasitas yang baru dan fundamental**.
+
+*   **Hakikat yang Ditemukan:** Yang dicari oleh riset fundamental adalah *energon* dalam suatu sub-realitas yang **tersedia melimpah di lingkungan** untuk dijadikan *energon* potensial melalui instrumen. Pengetahuan yang dihasilkan ini adalah **deskripsi bahasa tentang realitas**.
+*   **Fenomena yang Ada:** Lingkungan kerja (yang merupakan sub-ruang dari realitas alamiah dan sosial) beroperasi menggunakan **kekuatan alamiah maupun sosial** untuk memindahkan beban berat. Yang dicari adalah prinsip yang mendasari fenomena yang sebenarnya sudah ada, yaitu **hukum dan prinsip** yang berbicara tentang ruang, posisi, kekuatan (*force*), dan kapasitas melakukan usaha (*energon*).
+*   ***Energon* dan Kerja (*Work*):** Kebutuhan *stakeholder* dipandang berharga, yang ditandai dengan kesediaan mereka untuk membayarnya dengan *energon* (kapasitas melakukan usaha). *Energi* adalah properti kuantitatif yang harus ditransfer ke suatu objek agar **melakukan kerja (*work*)**. Prinsip yang dicari adalah cara untuk mengubah suatu bentuk *energon* ke bentuk yang diinginkan **karena terdapat cara untuk *energon* ini melakukan kerja**.
+
+## 2. Dari Fenomena ke Temuan Dasar
+
+Proses discovery mengubah fenomena yang belum disadari menjadi temuan terstruktur melalui kodifikasi:
+
+*   **Discovery Hipotetikal (Konsep Orisinal):** Ketika suatu fenomena atau prinsip (misalnya, cara mengubah bentuk *energon* tertentu) dijelaskan dengan gagasan atau **konsep orisinal**, konsep ini menjadi **konsep fundamental**. Proses ini melibatkan **riset dan pengujian eksploratif** untuk memvalidasi teori-teori.
+*   **Temuan Dasar yang Tervalidasi:** Agar gagasan ini menjadi temuan dasar yang berkontribusi pada *body of knowledge*, harus ada cara untuk memvalidasinya. Di Lapisan Fundamental, validasi dilakukan secara ketat menggunakan **PICOC (*Population, Intervention, Control, Outcome, Context*) Hipotesis *Testing***. Ini memastikan bahwa pengetahuan baru, prinsip, atau model yang ditemukan telah **terbukti secara sistematis**.
+
+Hasil dari Lapisan Fundamental ini adalah **Prinsip Baru** atau **Model Baru**.
+
+## 3. Konversi Energon dan Invensi Instrumen Kunci
+
+Temuan prinsip fundamental yang menjelaskan cara konversi *energon* menjadi kerja kemudian berfungsi sebagai basis ilmiah yang mendasari langkah selanjutnya: invensi teknologi.
+
+*   **Invensi Instrumen:** Mesin Inti (*Core Engine*) dirancang untuk **mengubah *energi* atau *energon* sumber menjadi usaha atau kerja bertenaga kuat**. Mesin Inti ini terdiri dari **instrumen**.
+*   **Instrumen Konversi:** Prinsip yang ditemukan mengenai cara mengubah *energon* menjadi bentuk yang diinginkan (karena dapat melakukan kerja) mengarah pada invensi instrumen konversi yang menyusun Mesin Inti.
+    *   Instrumen kunci yang melaksanakan konversi ini adalah **Encoder Block**. Encoder berfungsi melakukan **Transduksi & Standardisasi** dengan menerapkan kekuatan simbolik (*Modulation*) untuk mengubah *Source Energon* (energi sumber mentah) menjadi **Core Energon** berdensitas tinggi yang dapat disimpan.
+*   **Contoh Invensi:** Lapisan Fundamental menghasilkan **Instrumen Konversi Baru (*New conversion instruments*)**. Setelah prinsip konversi ditemukan di Lapisan Fundamental, maka dapat diciptakan **invensi instrumen** yang melakukan konversi *energon* ini. Proses invensi instrumen yang sebenarnya terjadi di **Lapisan Teknologi (T)**, didukung oleh konsep-konsep dari Lapisan Fundamental.

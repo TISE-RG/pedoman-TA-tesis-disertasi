@@ -3,20 +3,166 @@ title: "Pedoman Pelaksanaan Tugas Akhir, Tesis dan Disertasi"
 subtitle: "Di Triune-Intelligence Smart-Engineering Research Group (TISE-RG)"
 ---
 
-rekayasa menerapkan imu pengethuan
-pendidikan rekyaasawan menyangut
-enjadi sosok rekyasawan
-bekerja merekayasa atefak rancang bangun
-# parados perubahan
-manusia berkarya mengubah dunia. akibatnya dunia meaksa anusi untk berubah
+# Menjadi Rekaysawan Komputasi
+
+Pendidikan S1, S2, S3 rekayasa komputasi berpuncak pada Tugas Akhir (TA), Tesis, dan Disertasi. Kesamaan nya adalah pada fase puncak pendidikan ini dimaksudkan agar mahasiswa
+
+-   bertumbuh menjadi sosok rekaysawan komputasi dengan menyerap body-of-knowledge dari repository belajar di bidangnya hingga mampu bekerja melakukan pekerjaan rekayasa
+
+-   sehingga mampu menghasilkan artefak hasil rekayasa yang berguna bagi pemakai
+
+-   dan mampu berkontribusi balik kepada repositori belajar dengan menghasilkan karya tulis ilmiah
 
 
-Dunia terus berkembang di berbagai dimensi kehidupan manusia. Di satu pihak manusia ikut melakukan perubahan ini, di pihak lain perubahan dunia ini mendesak manusia untuk berubah.
+Apa kemampuan sosok rekayasawan? Semua melakukan rekayasa, inovasi, invensi, dan penemuan. Perbedaanya ada yang mempeolehnya sebagai gagasan orisinal, dan ada yang diperoleh dari the Body of Knowledge (BOK) ilmu rekayasa di bidangnya.
 
-Peran ilmu penethuan, yaitu kekayaan penikiran kolektif manusia yang dokifikasi dalam tulisan ilmiah, berperan sangat besar dalam pencitaan berbagai inovasi yang membawa perubahan ini. padagiirannya kemajuan inovasi ini meampukan manusia untuk menghsikan semakin banyak pengethuan
 
-# reayasawan komputasi
+|  Strata  | Rekayasa | Inovasi  | Invensi  | Penemuan |
+|----------|----------|----------|----------|----------|
+|   S1     | Original | Dari BOK | Dari BOK | Dari BOK |
+|   S2     | Original | Original | Dari BOK | Dari BOK |
+|   S3     | Original | Original | Original | Ori/ BOK |
+|----------|----------|----------|----------|----------|
 
-Rekayasawan secara umum dan rekayasawan komputasi secara khusus ada dipusat perubahan ini. Kehadian artificial intelligence yang mampu mebaca dan menuis telahmengubbah drastis cara enusia bekerja
 
-# pendidikan
+------------------------------------------------------------------------
+
+## 1. Definisi singkat
+
+-   **Discovery (penemuan ilmiah / penemuan fakta)** Menemukan atau menyadari sesuatu yang *sebenarnya sudah ada* di alam atau realitas, tetapi sebelumnya belum diketahui atau belum dipahami.
+
+    > Contoh: menemukan struktur DNA, hukum Ohm, planet baru, pola matematika baru.
+
+-   **Invention (invensi / ciptaan)** Menciptakan sesuatu *yang sebelumnya belum ada*—alat, metode, atau proses baru, biasanya menggunakan pengetahuan dari berbagai discovery.
+
+    > Contoh: lampu pijar, telepon, transistor, algoritma kompresi tertentu.
+
+-   **Innovation (inovasi)** Mengubah ide, discovery, atau invention menjadi *nilai nyata*—dipakai secara luas dan memberi dampak (ekonomi, sosial, lingkungan, dll.).
+
+    > Contoh: jaringan listrik yang menerangi kota, smartphone yang dipakai semua orang, layanan ojek online yang mengubah pola transportasi.
+
+-   **Engineering (rekayasa / teknik)** *Penerapan sistematis* sains, matematika, dan kreativitas untuk merancang, membangun, mengoperasikan, dan memperbaiki artefak/sistem di bawah berbagai kendala (biaya, keselamatan, keandalan, etika, lingkungan, dll.).
+
+    > Contoh: mendesain jembatan, jaringan 5G, sistem pembangkit listrik, sistem penilaian risiko kredit.
+
+------------------------------------------------------------------------
+
+## 2. Persamaan keempat istilah
+
+Semua terkait dengan **kebaruan dan perubahan**:
+
+-   **Discovery** → kebaruan pada *pengetahuan* tentang realitas.
+-   **Invention** → kebaruan pada *artefak atau metode*.
+-   **Innovation** → kebaruan pada *cara memberi nilai/manfaat* di dunia nyata.
+-   **Engineering** → kebaruan atau perbaikan pada *sistem/solusi*.
+
+Dan semuanya terkait dengan **pemecahan masalah**:
+
+-   Discovery: “Apa yang sebenarnya terjadi? Hukum/struktur apa yang berlaku?”
+-   Invention: “Bisa tidak kita buat alat/metode untuk melakukan ini?”
+-   Innovation: “Bagaimana agar ini dipakai orang dan membawa manfaat?”
+-   Engineering: “Bagaimana cara membangun ini supaya aman, andal, dan terjangkau?”
+
+Mereka juga **saling bergantung**:
+
+-   Discovery → sering menjadi landasan invention.
+-   Invention + engineering → memungkinkan innovation.
+-   Engineering → memakai discovery, memformalkan invention, dan menghasilkan solusi yang bisa menjadi innovation.
+
+------------------------------------------------------------------------
+
+## 3. Perbedaan utama
+
+### 3.1. Dari sisi “apa yang baru”
+
+| Istilah | Apa yang baru? | Apakah sudah ada sebelum kita bertindak? |
+|---------------|------------------------------|---------------------------|
+| Discovery | Pengetahuan/fakta baru tentang sesuatu | Ya, objek/gejalanya sudah ada di alam |
+| Invention | Konsep/alat/proses baru | Belum ada, kita yang menciptakan |
+| Innovation | Cara baru menciptakan *nilai* dari yang ada | Bertumpu pada hal-hal yang sudah ada |
+| Engineering | Desain dan realisasi sistem/solusi teknis | Kita bentuk/ubah melalui proses rekayasa |
+
+------------------------------------------------------------------------
+
+### 3.2. Pertanyaan kunci yang dijawab
+
+-   **Discovery**
+
+    > “Apa ini? Bagaimana cara kerja alam / sistem ini sebenarnya?”
+
+-   **Invention**
+
+    > “Bisakah kita menciptakan sesuatu untuk melakukan fungsi ini?”
+
+-   **Innovation**
+
+    > “Bisakah ini dipakai luas dan membawa manfaat nyata bagi orang/organisasi?”
+
+-   **Engineering**
+
+    > “Bagaimana kita merancang dan membangunnya agar bekerja dengan baik di dunia nyata?”
+
+------------------------------------------------------------------------
+
+### 3.3. Domain & cara menilai keberhasilan
+
+| Istilah | Biasanya di ranah… | Dianggap berhasil kalau… |
+|---------------|---------------------|------------------------------------|
+| Discovery | Sains, eksplorasi, analisis | Benar, akurat, menjelaskan fenomena |
+| Invention | R&D, laboratorium, desain teknis | Baru, fungsional, bisa dipatenkan, punya kegunaan |
+| Innovation | Bisnis, kebijakan publik, masyarakat | Dipakai luas, mencipta nilai, berkelanjutan |
+| Engineering | Sistem teknis di semua sektor | Kinerja baik, andal, aman, efisien, etis, ramah lingkungan |
+
+------------------------------------------------------------------------
+
+### 3.4. Urutan waktu (gambaran sederhana)
+
+Sering digambarkan sebagai alur:
+
+> **Discovery → Invention → Engineering (desain & implementasi) → Innovation (adopsi & dampak)**
+
+Contoh di telekomunikasi:
+
+1.  **Discovery**: teori gelombang elektromagnetik, teori informasi, teori sinyal.
+2.  **Invention**: modem, kode koreksi error, algoritma kompresi, protokol.
+3.  **Engineering**: jaringan telepon / data nyata, BTS, router, sistem billing, standar.
+4.  **Innovation**: internet & mobile data yang mengubah cara kita bekerja, belanja, belajar.
+
+Tapi kenyataannya **siklik**: Masalah rekayasa bisa memicu discovery baru; keberhasilan/masalah innovation memunculkan pertanyaan ilmiah baru.
+
+------------------------------------------------------------------------
+
+## 4. Posisi “engineering” di antara tiga istilah lain
+
+Bisa dibayangankan seperti ini:
+
+-   **Sains & discovery** → memberi kita *hukum dan model* tentang dunia.
+-   **Engineering (rekayasa)** → memakai hukum itu + berbagai kendala untuk menghasilkan *artefak dan sistem yang bekerja*.
+-   **Invention** → sering lahir di dalam proses rekayasa/R&D sebagai *terobosan spesifik* (alat, metode, algoritma).
+-   **Innovation** → terjadi ketika artefak/sistem itu *diadopsi* dan *mengubah praktik hidup*.
+
+Karena itu:
+
+-   Bisa ada **discovery tanpa engineering** (misalnya penemuan partikel baru, belum ada aplikasi langsungnya).
+-   Bisa ada **engineering tanpa discovery baru** (misalnya hanya menskalakan teknologi yang sudah mapan).
+-   Bisa ada **invention tanpa innovation** (ada paten, tapi tidak pernah dipakai).
+-   **Innovation hampir selalu butuh engineering** karena untuk berdampak, sistem harus kuat, aman, dan bisa diskalakan.
+
+------------------------------------------------------------------------
+
+## 5. Ringkasan satu kalimat per istilah
+
+-   **Discovery**: Mengungkap apa yang *sudah benar* tentang dunia, tapi sebelumnya belum kita ketahui.
+-   **Invention**: Menciptakan sesuatu *yang belum pernah ada* sebelumnya.
+-   **Innovation**: Menjadikan hal baru itu *digunakan secara luas* dan menciptakan nilai nyata.
+-   **Engineering**: *Menerjemahkan pengetahuan* menjadi sistem dan solusi yang *bekerja andal* di dunia nyata.
+
+Berikut tabel ringkasnya dalam bahasa Indonesia:
+
+| Istilah                           | Fokus Utama                         | Apa yang Baru?                          | Sudah Ada Sebelumnya?                 | Ukuran Keberhasilan                                    | Contoh Singkat                                   |
+| --------------------------------- | ----------------------------------- | --------------------------------------- | ------------------------------------- | ------------------------------------------------------ | ------------------------------------------------ |
+| **Discovery** (penemuan ilmiah)   | Menemukan fakta/hukum alam          | Pengetahuan/fakta baru tentang realitas | Ya, gejala/objeknya sudah ada di alam | Kebenaran, akurasi, daya jelaskan                      | Menemukan struktur DNA, hukum Ohm, planet baru   |
+| **Invention** (invensi/ciptaan)   | Menciptakan alat/metode/proses baru | Artefak atau metode baru                | Belum ada; diciptakan manusia         | Kebaruan, fungsionalitas, bisa dipatenkan              | Lampu pijar, modem, algoritma kompresi baru      |
+| **Innovation** (inovasi)          | Mewujudkan nilai dari hal-hal baru  | Cara baru memberi nilai/manfaat nyata   | Bertumpu pada hal yang sudah ada      | Adopsi luas, dampak ekonomi/sosial, keberlanjutan      | Layanan ojek online, e-banking, e-commerce       |
+| **Engineering** (rekayasa/teknik) | Merancang & membangun sistem/solusi | Desain & realisasi sistem yang andal    | Dibentuk lewat proses rekayasa        | Kinerja, keandalan, keamanan, biaya, etika, lingkungan | Jembatan, jaringan 5G, sistem pembangkit listrik |
+

@@ -1,0 +1,42 @@
+# aplikasi: mesin PSKVE
+
+Mesin PSKVE (Produk, Servis, *Knowledge*, *Value*, *Environment*) menghimpun *stakeholder* dalam lingkungan kerja yang berfungsi sebagai inti dari kerangka rekayasa cerdas TISE (Triune-Intelligence Systems Engineering).
+
+Berikut adalah penjelasan mengenai cara kerja lingkungan ini dalam memfasilitasi pertukaran *energon* melalui sistem akun:
+
+## 1. Lingkungan Kerja dan Tujuan Pemenuhan Kebutuhan
+
+Lingkungan kerja adalah **sub-ruang dari realitas sosial dan realitas alamiah**. Sub-ruang ini juga dikenal sebagai **Mesin PSKVE (*PSKVE Engine*)**, yang dirancang untuk mengorkestrasi lima kapasitas *energon* yang diperlukan untuk menyelesaikan tugas bernilai tinggi.
+
+Tujuan utama dari lingkungan kerja ini adalah **menghimpun para *stakeholder*** agar mereka dapat **bersama-sama melakukan berbagai tugas** dengan menerapkan berbagai kapasitas yang mereka miliki. Harapannya adalah **kebutuhan para *stakeholder* terpenuhi**.
+
+Dalam kerangka TISE 1.0, lingkungan kerja cerdas dirancang secara arsitektural untuk menutup **"kesenjangan" (*gap*)** antara kondisi saat ini (Titik A) dan kondisi yang diinginkan (Titik B) dalam ruang multi-dimensi PSKVE.
+
+## 2. Energon dan Pertukaran Nilai (*Value Co-creation*)
+
+**Energon** adalah konsep yang merepresentasikan **kapasitas melakukan usaha**. *Energon* bekerja terhadap manusia, sebagaimana energi bekerja pada materi. Kebutuhan *stakeholder* dianggap **berharga (*valuable*)**, yang ditandai dengan kesediaan mereka untuk membayar kebutuhan ini dengan:
+*   Energi, daya, dan tenaga.
+*   Waktu, perhatian, dan dana.
+
+Dalam lingkungan kerja ini, para *stakeholder* secara esensial melakukan **ko-kreasi nilai (*value-cocreation*)** dengan **bertukar *energon* masing-masing** untuk memperoleh apa yang dibutuhkan. Rekayasa nilai (value rekayasa) bertujuan merancang **skema pertukaran *energon*** sehingga semua *stakeholder* dapat mengevaluasi dan mengkuantifikasi *benefit* yang mereka dapatkan melebihi *cost* atau *energon* yang mereka bayar.
+
+## 3. Konsep Akun Energon (Butuh dan Limpah)
+
+Konsep pertukaran *energon* di lingkungan kerja adalah skema dasar yang diibaratkan seperti **penukar uang (*money exchanger*) yang memuaskan semua pihak**.
+
+Meskipun sumber menyebut bahwa setiap *stakeholder* memiliki **dua atau lebih akun** berdasarkan mata uang yang ia punya, mekanisme pertukaran secara implisit mendukung konsep **Akun Butuh** dan **Akun Limpah**:
+
+*   **Akun Butuh (*Need Account*)**: Akun ini mewakili kebutuhan *stakeholder* yang harus dipenuhi (yaitu nilai yang ingin ia peroleh). Kebutuhan ini dapat diukur dalam salah satu dari lima dimensi PSKVE (Produk, Layanan, Pengetahuan, Nilai, atau Lingkungan).
+*   **Akun Limpah (*Surplus Account*)**: Akun ini mewakili kapasitas (*energon*) yang dimiliki dan siap untuk dibayarkan oleh *stakeholder* (yaitu waktu, tenaga, pengetahuan, atau dana).
+
+**Mekanisme Pertukaran:**
+
+Untuk **mengisi Akun Butuh**, *stakeholder* harus **menukarnya dengan Energon dari Akun Limpah**.
+
+Contoh dari studi kasus rekayasa *energon* yang analog, seorang insinyur bernama Elara berinteraksi dengan sistem cerdas di ruang bernama *The Helix*:
+1.  **Akun Limpah (Outgoing):** Elara mengeluarkan **Service** (waktu, fokus, usaha kreatifnya—*Human Energon*). Dia juga menyumbangkan **Knowledge** (umpan balik, laporan *bug*, dan solusi baru).
+2.  **Akun Butuh (Incoming):** Sebagai imbalan, sistem (dosen/organisasi) memberinya **Value** (insentif berupa bonus/pembayaran—*Economic Energon*) dan **Membership** (izin untuk menggunakan alat bernilai tinggi dan kepercayaan organisasi—*Systemic Energon*).
+
+Pertukaran ini merupakan suatu siklus yang dinamis dan terencana (PUDAL), di mana sistem mendeteksi kekurangan di Akun Butuh *stakeholder* (misalnya, *Knowledge gap* atau risiko *Burnout*) dan merespons dengan menyediakan *energon* yang dibutuhkan (misalnya, insentif **Value** atau dukungan **Service**).
+
+Dengan demikian, lingkungan kerja PSKVE bertindak sebagai mesin yang mengelola konversi kapasitas, memastikan bahwa semua pihak mendapatkan *benefit* melebihi *cost* yang mereka bayarkan, sehingga memuaskan semua pihak.

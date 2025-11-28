@@ -9,6 +9,14 @@ website:
       left:
         - href: index.qmd
           text: Home
+        - href: rekayasa.qmd
+          text: Rekayasa
+        - href: inovasi.qmd
+          text: Inovasi
+        - href: invensi.qmd
+          text: Invensi
+        - href: temuan.qmd
+          text: Temuan
         - about.qmd
 
 format:
