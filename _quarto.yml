@@ -1,31 +1,23 @@
 project:
-  type: website
-  output-dir: docs
+  type: book
 
-website:
-  title: "Pedoman Pelaksanaan Tugas Akhir, Tesis dan Disertasi"
+book:
+  title: "Pedoman"
+  author: "Norah Jones"
+  date: "11/30/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
 
-  navbar:
-      left:
-        - href: index.qmd
-          text: Home
-        - href: rekayasa.qmd
-          text: Rekayasa
-        - href: inovasi.qmd
-          text: Inovasi
-        - href: invensi.qmd
-          text: Invensi
-        - href: temuan.qmd
-          text: Temuan
-        - about.qmd
+bibliography: references.bib
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
-    toc: true
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
 
 
 
