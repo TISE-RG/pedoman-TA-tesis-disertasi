@@ -1,13 +1,19 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Pedoman"
-  author: "Norah Jones"
+  author: "Armein Z. R. Langi"
   date: "11/30/2025"
   chapters:
     - index.qmd
     - intro.qmd
+    - narasi.qmd
+    - rekayasa.qmd
+    - inovasi.qmd
+    - invensi.qmd
+    - temuan.qmd  
     - summary.qmd
     - references.qmd
 
@@ -17,7 +23,7 @@ format:
   html:
     theme: cosmo
   pdf:
-    documentclass: scrreprt
+    documentclass: report
 
 
 

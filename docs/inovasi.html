@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>inovasi – Pedoman Pelaksanaan Tugas Akhir, Tesis dan Disertasi</title>
+<title>5&nbsp; Arsitektur Mejsin PUDAL – Pedoman</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./invensi.html" rel="next">
+<link href="./rekayasa.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -40,13 +42,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-70a47bd5681a7291082a5b9f83d58762.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -99,101 +101,152 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar floating quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    </a>
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Pedoman Pelaksanaan Tugas Akhir, Tesis dan Disertasi</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./rekayasa.html"> 
-<span class="menu-text">Rekayasa</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./inovasi.html" aria-current="page"> 
-<span class="menu-text">Inovasi</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./invensi.html"> 
-<span class="menu-text">Invensi</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./temuan.html"> 
-<span class="menu-text">Temuan</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./inovasi.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arsitektur Mejsin PUDAL</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Pedoman</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Pedoman Pelaksanaan Tugas Akhir, Tesis dan Disertasi</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./narasi.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">About</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rekayasa.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">aplikasi: mesin PSKVE</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./inovasi.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arsitektur Mejsin PUDAL</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./invensi.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Temuan mesin dan Instrumen Kunci</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./temuan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Gagasan Fundamental</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#arsitektur-mejsin-pudal" id="toc-arsitektur-mejsin-pudal" class="nav-link active" data-scroll-target="#arsitektur-mejsin-pudal">Arsitektur Mejsin PUDAL</a>
+  <li><a href="#kebutuhan-tidak-instan-karena-kompleksitas-dan-beban" id="toc-kebutuhan-tidak-instan-karena-kompleksitas-dan-beban" class="nav-link active" data-scroll-target="#kebutuhan-tidak-instan-karena-kompleksitas-dan-beban"><span class="header-section-number">5.1</span> 1. Kebutuhan Tidak Instan Karena Kompleksitas dan Beban</a></li>
+  <li><a href="#mesin-cerdas-siklus-adaptasi-pudal" id="toc-mesin-cerdas-siklus-adaptasi-pudal" class="nav-link" data-scroll-target="#mesin-cerdas-siklus-adaptasi-pudal"><span class="header-section-number">5.2</span> 2. Mesin Cerdas: Siklus Adaptasi PUDAL</a>
   <ul class="collapse">
-  <li><a href="#kebutuhan-tidak-instan-karena-kompleksitas-dan-beban" id="toc-kebutuhan-tidak-instan-karena-kompleksitas-dan-beban" class="nav-link" data-scroll-target="#kebutuhan-tidak-instan-karena-kompleksitas-dan-beban">1. Kebutuhan Tidak Instan Karena Kompleksitas dan Beban</a></li>
-  <li><a href="#mesin-cerdas-siklus-adaptasi-pudal" id="toc-mesin-cerdas-siklus-adaptasi-pudal" class="nav-link" data-scroll-target="#mesin-cerdas-siklus-adaptasi-pudal">2. Mesin Cerdas: Siklus Adaptasi PUDAL</a>
-  <ul class="collapse">
-  <li><a href="#peran-pudal-dalam-pertumbuhan-waktu" id="toc-peran-pudal-dalam-pertumbuhan-waktu" class="nav-link" data-scroll-target="#peran-pudal-dalam-pertumbuhan-waktu">Peran PUDAL dalam Pertumbuhan Waktu:</a></li>
+  <li><a href="#peran-pudal-dalam-pertumbuhan-waktu" id="toc-peran-pudal-dalam-pertumbuhan-waktu" class="nav-link" data-scroll-target="#peran-pudal-dalam-pertumbuhan-waktu"><span class="header-section-number">5.2.1</span> Peran PUDAL dalam Pertumbuhan Waktu:</a></li>
   </ul></li>
-  <li><a href="#tise-2.0-pertumbuhan-naratif-dan-fleksibilitas" id="toc-tise-2.0-pertumbuhan-naratif-dan-fleksibilitas" class="nav-link" data-scroll-target="#tise-2.0-pertumbuhan-naratif-dan-fleksibilitas">3. TISE 2.0: Pertumbuhan Naratif dan Fleksibilitas</a></li>
-  </ul></li>
+  <li><a href="#tise-2.0-pertumbuhan-naratif-dan-fleksibilitas" id="toc-tise-2.0-pertumbuhan-naratif-dan-fleksibilitas" class="nav-link" data-scroll-target="#tise-2.0-pertumbuhan-naratif-dan-fleksibilitas"><span class="header-section-number">5.3</span> 3. TISE 2.0: Pertumbuhan Naratif dan Fleksibilitas</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arsitektur Mejsin PUDAL</span></h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<section id="arsitektur-mejsin-pudal" class="level1">
-<h1>Arsitektur Mejsin PUDAL</h1>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
 <p>Mesin PSKVE (Produk, Servis, <em>Knowledge</em>, <em>Value</em>, <em>Environment</em>) tidak dirancang untuk memenuhi kebutuhan <em>stakeholder</em> secara instan. Sebaliknya, mesin ini memiliki <strong>gagasan pertumbuhan yang tertanam seiring berjalannya waktu</strong> karena ia adalah <strong>mesin cerdas (<em>Smart Engine</em>)</strong> yang beroperasi melalui proses adaptasi, pembelajaran, dan pertumbuhan.</p>
 <p>Berikut adalah penjelasan mengapa pemenuhan kebutuhan tidak instan dan bagaimana Mesin PSKVE memfasilitasi pertumbuhan:</p>
-<section id="kebutuhan-tidak-instan-karena-kompleksitas-dan-beban" class="level2">
-<h2 class="anchored" data-anchor-id="kebutuhan-tidak-instan-karena-kompleksitas-dan-beban">1. Kebutuhan Tidak Instan Karena Kompleksitas dan Beban</h2>
+<section id="kebutuhan-tidak-instan-karena-kompleksitas-dan-beban" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="kebutuhan-tidak-instan-karena-kompleksitas-dan-beban"><span class="header-section-number">5.1</span> 1. Kebutuhan Tidak Instan Karena Kompleksitas dan Beban</h2>
 <p>Masalah fundamental yang ingin dipecahkan oleh TISE 1.0 adalah adanya <strong>“kesenjangan” (<em>gap</em>)</strong> antara kondisi saat ini (Titik A) dan kondisi yang diinginkan (Titik B) dalam Ruang PSKVE multi-dimensi. Usaha untuk menutup kesenjangan ini sering kali <strong>dirasa terlalu berat atau kompleks</strong> bagi <em>stakeholder</em>.</p>
 <p>Karena lingkungan kerja adalah sub-ruang realitas sosial dan alamiah, dan <em>energon</em> (<em>kapasitas melakukan usaha</em>) yang dipertukarkan bersifat multi-dimensi (fisik, layanan, pengetahuan, nilai, lingkungan), proses untuk memindahkan beban berat dari Titik A ke Titik B membutuhkan waktu dan penyesuaian.</p>
 </section>
-<section id="mesin-cerdas-siklus-adaptasi-pudal" class="level2">
-<h2 class="anchored" data-anchor-id="mesin-cerdas-siklus-adaptasi-pudal">2. Mesin Cerdas: Siklus Adaptasi PUDAL</h2>
+<section id="mesin-cerdas-siklus-adaptasi-pudal" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="mesin-cerdas-siklus-adaptasi-pudal"><span class="header-section-number">5.2</span> 2. Mesin Cerdas: Siklus Adaptasi PUDAL</h2>
 <p>Mesin PSKVE adalah <strong>Mesin Energon Cerdas dan Kuat</strong> yang dikhususkan untuk konversi berkelanjutan <strong>Energon Manusia Potensial</strong> (<em>Human Energon</em>) menjadi <strong>Kerja Kinetik</strong>. Kecerdasan dan sifat adaptif sistem ini berasal dari eksekusi siklus <strong>PUDAL</strong> (Perceive, Understand, Decision-making, Act, Learning) yang berulang.</p>
 <p>Siklus PUDAL ini secara fundamental <strong>berfokus pada pembelajaran adaptif dan evolusi kapabilitas</strong> dalam lingkungan yang dinamis dan kolaboratif, bukan sekadar eksekusi tugas yang efisien.</p>
-<section id="peran-pudal-dalam-pertumbuhan-waktu" class="level3">
-<h3 class="anchored" data-anchor-id="peran-pudal-dalam-pertumbuhan-waktu">Peran PUDAL dalam Pertumbuhan Waktu:</h3>
+<section id="peran-pudal-dalam-pertumbuhan-waktu" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="peran-pudal-dalam-pertumbuhan-waktu"><span class="header-section-number">5.2.1</span> Peran PUDAL dalam Pertumbuhan Waktu:</h3>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -233,8 +286,8 @@ window.Quarto = {
 <p>Sistem ini menunjukkan <strong>Adaptasi Sistemik dan Jalan Dinamis</strong> karena siklus PUDAL berjalan terus-menerus, menciptakan umpan balik yang ketat di mana sistem <strong>belajar dari setiap pergerakan</strong>.</p>
 </section>
 </section>
-<section id="tise-2.0-pertumbuhan-naratif-dan-fleksibilitas" class="level2">
-<h2 class="anchored" data-anchor-id="tise-2.0-pertumbuhan-naratif-dan-fleksibilitas">3. TISE 2.0: Pertumbuhan Naratif dan Fleksibilitas</h2>
+<section id="tise-2.0-pertumbuhan-naratif-dan-fleksibilitas" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="tise-2.0-pertumbuhan-naratif-dan-fleksibilitas"><span class="header-section-number">5.3</span> 3. TISE 2.0: Pertumbuhan Naratif dan Fleksibilitas</h2>
 <p>Evolusi kerangka kerja ke TISE 2.0 semakin memperkuat gagasan pertumbuhan seiring waktu, karena tujuan utamanya bergeser dari sekadar efisiensi dan pemenuhan kebutuhan (menutup kesenjangan A <span class="math inline">\(\rightarrow\)</span> B) menjadi <strong>memberdayakan <em>stakeholder</em> untuk secara sadar menulis kisah hidup yang koheren dan istimewa</strong>.</p>
 <p>Dalam TISE 2.0, pemenuhan kebutuhan diukur bukan hanya dari penutupan kesenjangan yang statis, tetapi dari <strong>koherensi naratif, pertumbuhan pribadi, dan makna yang dirasakan</strong>. Ini secara eksplisit mengakui bahwa:</p>
 <ul>
@@ -244,7 +297,6 @@ window.Quarto = {
 <p>Oleh karena itu, Mesin PSKVE/TISE adalah mesin cerdas yang tidak sekadar mengeliminasi masalah, tetapi <strong>memanfaatkan setiap hambatan (<em>Roadblock</em>) sebagai bahan mentah yang kaya</strong> untuk bab berikutnya dalam narasi <em>stakeholder</em>, memastikan sistem dan penggunanya tumbuh bersama dalam simbiosis.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -648,6 +700,18 @@ window.Quarto = {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./rekayasa.html" class="pagination-link" aria-label="aplikasi: mesin PSKVE">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">aplikasi: mesin PSKVE</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./invensi.html" class="pagination-link" aria-label="Temuan mesin dan Instrumen Kunci">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Temuan mesin dan Instrumen Kunci</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
