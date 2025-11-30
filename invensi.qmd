@@ -1,5 +1,6 @@
-# Temuan mesin dan Instrumen Kunci
-
+---
+title: Temuan Mesin dan Instrumen Kunci
+---
 Gagasan Anda mengenai Mesin Inti (*Core Engine*) dan kebutuhan akan **energon khusus** yang menjadi kunci untuk mengatasi masalah yang sukar (seperti kasus diagnosis medis yang kompleks) sepenuhnya selaras dengan arsitektur **Triune-Intelligence Systems Engineering (TISE)** dan konsep **Rekayasa Energon (*Energon Engineering*)**.
 
 Dalam kerangka TISE, Mesin Inti (*Core Engine*) memang diinvensi dan dikembangkan secara spesifik untuk mengubah *energon* sumber menjadi usaha (*work*) yang bertenaga, guna memecahkan masalah yang terperangkap dalam "kesenjangan" (*gap*) yang tidak dapat diselesaikan dengan usaha biasa.
