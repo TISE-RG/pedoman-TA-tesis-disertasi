@@ -1,4 +1,6 @@
-# aplikasi: mesin PSKVE
+---
+title: Rekayasa Mesin PSKVE
+---
 
 Mesin PSKVE (Produk, Servis, *Knowledge*, *Value*, *Environment*) menghimpun *stakeholder* dalam lingkungan kerja yang berfungsi sebagai inti dari kerangka rekayasa cerdas TISE (Triune-Intelligence Systems Engineering).
 

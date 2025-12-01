@@ -1,4 +1,6 @@
-# Arsitektur Mejsin PUDAL
+---
+title: Arsitektur Mesin PUDAL
+---
 
 Mesin PSKVE (Produk, Servis, *Knowledge*, *Value*, *Environment*) tidak dirancang untuk memenuhi kebutuhan *stakeholder* secara instan. Sebaliknya, mesin ini memiliki **gagasan pertumbuhan yang tertanam seiring berjalannya waktu** karena ia adalah **mesin cerdas (*Smart Engine*)** yang beroperasi melalui proses adaptasi, pembelajaran, dan pertumbuhan.
 
