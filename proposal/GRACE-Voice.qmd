@@ -1,0 +1,142 @@
+---
+subtitle: Proposal Tugas Akhir
+
+title:  Desain dan Implementasi Interaksi Suara yang Berpusat pada Lansia untuk Asisten Naratif I-GRACE (GRACE-NARRATE)
+---
+# Latar Belakang dan Motivasi
+
+Indonesia sedang menghadapi transformasi demografis yang signifikan, dengan populasi lansia diproyeksikan mencapai hampir **20% pada tahun 2045**. Tren ini menimbulkan tantangan sosio-ekonomi yang kompleks, termasuk risiko isolasi sosial, kehilangan tujuan hidup, dan beban pada sistem dukungan yang ada.
+
+Proyek GRACE (*Growing Healthily, Resourceful, Active, and Enriching Life*) dikembangkan sebagai ekosistem komputasi komunitas berbasis Kecerdasan Artifisial (AI) yang berupaya menggeser paradigma dari "mengelola penurunan" fungsional menjadi **"memampukan kontribusi"** yang bermakna. Visi ini diwujudkan melalui metafora **"Panggung Kehidupan Megah"** (*Magnificent Life Stage*).
+
+Inti dari pemberdayaan individu dalam GRACE terletak pada subsistem **I-GRACE (Individual Assistant)**, yang merupakan **Asisten Naratif**. Asisten Naratif adalah agen AI percakapan (*chatbot*) yang dirancang untuk memfasilitasi **Penalaran Otobiografis** (*Autobiographical Reasoning*), membantu lansia membangun narasi hidup yang koheren, berdaya, dan bermakna.
+
+## Kebutuhan Interaksi Suara: Mengatasi Kesenjangan Digital
+
+Meskipun teknologi digital menawarkan solusi, sebagian besar populasi lansia di Indonesia menghadapi **kesenjangan digital** (*digital divide*), di mana mereka kekurangan keterampilan, akses, atau kepercayaan diri untuk memanfaatkan teknologi secara efektif.
+
+Desain antarmuka untuk lansia dihadapkan pada tantangan **keterbatasan fisik** (seperti penglihatan, pendengaran, atau ketangkasan yang berkurang) dan penurunan kognitif, yang membuat antarmuka kompleks sulit digunakan. Untuk mengatasi tantangan ini, solusi yang diperlukan adalah antarmuka yang **sangat intuitif, disederhanakan**, dan **mudah diakses**.
+
+**Interaksi suara** (*voice interaction*) diidentifikasi sebagai mekanisme krusial untuk membuat sistem I-GRACE dapat diakses oleh lansia, karena menawarkan metode interaksi yang alamiah dan langsung, mengatasi hambatan input berbasis teks atau sentuhan yang rumit.
+
+# Rumusan Masalah
+
+Berdasarkan konteks di atas, rumusan masalah dalam tugas akhir ini adalah:
+
+1.  Bagaimana merancang spesifikasi antarmuka pengguna suara (*Voice User Interface/VUI*) yang **intuitif, sesuai budaya**, dan **ramah lansia** untuk Asisten Naratif I-GRACE, dengan mempertimbangkan tantangan literasi digital dan keterbatasan fisik?
+2.  Bagaimana mengimplementasikan interaksi suara ke dalam Mesin Kognitif PUDAL (*Perceive-Understand-Decide-Act-Learn*) I-GRACE untuk secara efektif **memersepsikan dan menganalisis input naratif lansia** (misalnya, tema *Redemption, Agency, Communion*)?
+3.  Seberapa besar peningkatan **kegunaan (** ***usability*** **)** dan **akseptabilitas** sistem bagi lansia di Indonesia setelah diintegrasikan dengan fitur interaksi suara, dibandingkan dengan interaksi berbasis teks?
+
+# Tujuan Penelitian
+
+Tujuan utama dari tugas akhir ini adalah untuk:
+
+1.  Melakukan **perancangan rinci** antarmuka interaksi suara Asisten Naratif I-GRACE, dengan mengaplikasikan prinsip *Human-Centered Design* (HCD) dan *Value-Sensitive Design* (VSD).
+2.  **Mengimplementasikan prototipe fungsional** modul input dan output suara (termasuk *speech recognition* dan *text-to-speech*) dalam arsitektur I-GRACE.
+3.  **Mengevaluasi secara empiris** kegunaan (*System Usability Scale* - SUS) dan akseptabilitas budaya dari interaksi suara ini melalui uji coba pilot terkontrol pada sekelompok lansia di komunitas percontohan.
+4.  Menyediakan **rekomendasi teknis** untuk penyempurnaan Algoritma Personalisasi AI, khususnya dalam fase *Perceive/Understand* dari siklus PUDAL, berdasarkan data suara yang dikumpulkan.
+
+# Kontribusi Penelitian
+
+Kontribusi yang diharapkan dari tugas akhir ini adalah:
+
+1.  **Artefak Teknologi:** Prototipe Asisten Naratif I-GRACE dengan **fitur interaksi suara yang tervalidasi kegunaannya** untuk populasi lansia Indonesia, yang merupakan bagian dari subsistem I-GRACE.
+2.  **Kontribusi Ilmiah:** Menyajikan model operasionalisasi implementasi input/output suara (VUI) dalam kerangka *Triune-Intelligence Smart-Engineering* (TISE), khususnya bagaimana Kecerdasan Artifisial (AI) dapat mengoptimalkan Kecerdasan Alami (NI) lansia melalui medium suara.
+3.  **Kontribusi Sosial:** Secara langsung mengatasi tantangan kesenjangan digital yang dihadapi lansia dan **meningkatkan aksesibilitas** terhadap alat *meaning-making* berbasis naratif, yang bertujuan untuk meningkatkan kesejahteraan holistik.
+
+# Studi Pustaka
+
+Interaksi dengan agen melalui percakapan interaktif dirancang secara cermat dalam proyek GRACE melalui pengembangan **"Asisten Naratif" I-GRACE**. Asisten Naratif ini adalah **agen AI percakapan (chatbot)** yang beroperasi sebagai alat canggih untuk memfasilitasi proses psikologis fundamental dalam diri pengguna, yang disebut **penalaran otobiografis** (*autobiographical reasoning*).
+
+Tujuan utama interaksi ini adalah untuk membantu lansia **membangun narasi kehidupan yang lebih koheren, berdaya, dan bermakna**.
+
+Berikut adalah rancangan dan mekanisme utama interaksi percakapan dalam sistem ini:
+
+## Landasan Fungsional: Siklus Kognitif PUDAL
+
+Logika intervensi percakapan didasarkan pada **Mesin Kognitif PUDAL (Perceive, Understand, Decide, Act, Learn)** dari paradigma *Triune-Intelligence Smart-Engineering* (TISE):
+
+*   ***Perceive/Understand*** **(Memersepsikan/Memahami):** Sistem AI menganalisis input pengguna, yang utamanya berupa **entri jurnal atau refleksi suara**, menggunakan **Pemrosesan Bahasa Alami (NLP)**. AI akan **melakukan ekstraksi tema naratif** pada teks tersebut, mengklasifikasikan segmen berdasarkan tema kunci dari psikologi naratif, seperti:
+    *   **Penebusan (Redemption)** vs. **Kontaminasi (Contamination)**.
+    *   **Agensi (Agency)** vs. **Kepasifan (Passivity)**.
+    *   **Persekutuan (Communion)** vs. **Isolasi (Isolation)**.
+    Sistem memahami pola naratif ini dan menghubungkannya dengan skor **Indeks GRACE** pengguna.
+*   ***Decide*** **(Memutuskan):** Berdasarkan tema naratif yang terdeteksi (misalnya, adanya tema Kontaminasi yang kuat), sistem menggunakan basis pengetahuan yang diinformasikan oleh **terapi naratif** untuk **memilih strategi *prompt* intervensi yang paling sesuai**.
+*   ***Act*** **(Bertindak):** Sistem menghasilkan dan mengirimkan **sebuah *prompt* percakapan yang suportif dan tidak preskriptif**. *Prompt* ini dirancang untuk **memicu penalaran otobiografis yang lebih adaptif** pada pengguna.
+*   ***Learn*** **(Belajar):** Sistem **mengamati respons pengguna** terhadap *prompt* tersebut, serta perubahan skor pada Indeks GRACE dari waktu ke waktu, untuk **terus menyempurnakan model rekomendasinya**.
+
+## Jenis Intervensi Percakapan Spesifik
+
+Interaksi AI dirancang untuk bertindak sebagai **"fasilitator pemberdayaan diri"**. AI tidak memberikan solusi, melainkan memberikan pertanyaan reflektif untuk membantu pengguna menemukan kekuatan dalam cerita mereka sendiri.
+
+Contoh intervensi yang dapat dilakukan oleh Asisten Naratif:
+
+1.  **Mengubah Narasi Kontaminasi menjadi Penebusan:** Jika AI mendeteksi narasi yang membusuk (*contamination sequence*), AI dapat memberikan *prompt* untuk merefleksikan **pelajaran yang didapat atau kekuatan yang muncul** dari pengalaman negatif tersebut. Misalnya, AI akan menggunakan teknik seperti **'menemukan hasil unik'** (*unique outcomes*).
+2.  **Mendorong Agensi:** AI dapat menawarkan **saran *reframing* linguistik** untuk membantu pengguna mengubah narasi dari pasif (korban keadaan) menjadi narasi yang beragensi (aktor efektif).
+3.  **Memperkuat Persekutuan (Communion):** Setelah pengguna merefleksikan hubungan penting (misalnya, dengan cucu), AI dapat **menyarankan penjadwalan panggilan video** melalui subsistem F-GRACE, memperkuat hubungan antara refleksi internal dan tindakan eksternal.
+4.  **Fasilitasi Komunikasi:** AI dapat memberikan **saran pemicu percakapan** (*conversation starter suggestions*), *prompt* apresiasi, atau fasilitasi berbagi cerita dengan orang yang dicintai.
+
+## Prinsip Desain Interaksi dan Etika
+
+Interaksi dalam GRACE dirancang untuk **menghormati otonomi pengguna**:
+
+*   **Mode Interaksi:** Sebagian besar interaksi personal dan emosional di I-GRACE menggunakan **Mode Berpusat pada Manusia, Dibantu AI (*Human-Centric, AI-assisted*)**. Pengguna memiliki kontrol penuh, sementara AI berfungsi sebagai asisten yang memberikan saran, pengingat, dan dukungan.
+*   **Human-in-the-Loop (HITL):** Desain Asisten Naratif mengadopsi model *Human-in-the-Loop*, memastikan bahwa **pengguna selalu memiliki kendali penuh** atas interaksi. AI adalah fasilitator refleksi, **bukan otoritas yang memberikan perintah**.
+*   **Mencegah Dehumanisasi:** Tujuan eksplisit AI adalah untuk **meningkatkan kapasitas individu untuk refleksi diri** agar dapat **memperkaya dan memperdalam percakapan mereka dengan keluarga dan teman**. AI dirancang untuk **menjunjung tinggi martabat lansia**.
+*   **Multimodalitas:** Interaksi utama adalah melalui antarmuka percakapan **(teks atau suara)**. Desain antarmuka AI harus **intuitif, mudah diakses, dan ramah lansia**, mungkin dengan integrasi fitur **kontrol suara**.
+
+AI Narrative Assistant berfungsi seperti seorang **dramaturg** atau **kru panggung** pribadi, yang menyediakan pemicu naskah dan tata cahaya yang cerdas untuk membantu protagonis (lansia) menampilkan pertunjukan kehidupan mereka dengan megah.
+
+# Metodologi Penelitian
+
+Tugas akhir ini akan mengadopsi kerangka **Design Science Research Methodology (DSRM)**, dengan fokus pada perancangan dan evaluasi artefak (prototipe interaksi suara I-GRACE).
+
+## Fase Desain (Lapisan Aplikasi dan Sistem)
+
+1.  **Perancangan VUI Berpusat pada Manusia:** Melakukan lokakarya *co-design* partisipatif dengan sekelompok kecil lansia untuk menentukan persyaratan fungsional VUI. Fokusnya adalah pada kesederhanaan, penggunaan **kontrol suara** untuk aktivasi fitur, dan memastikan interaksi sopan yang **menjunjung tinggi martabat lansia**.
+2.  **Desain Skema Interaksi:** Merancang alur dialog (*dialogue flow*) yang dapat secara efektif memicu penalaran otobiografis (misalnya, *prompt* untuk mencari *unique outcomes* atau *sparkling moments*) melalui input suara, berdasarkan teori psikologi naratif.
+
+## Fase Implementasi (Lapisan Teknologi)
+
+1.  **Pengembangan Model NLP untuk Input Suara:** Mengimplementasikan model *Natural Language Processing* (NLP) (kemungkinan menggunakan Python) untuk **ekstraksi tema naratif** dari transkripsi suara (misalnya, mengklasifikasikan ucapan sebagai *Redemption* atau *Contamination*).
+2.  **Integrasi Mesin PUDAL:** Menghubungkan modul suara ke siklus kognitif **PUDAL**. Input suara akan menjadi mekanisme utama dalam fase **Perceive** (Memersepsikan) dan **Understand** (Memahami).
+3.  **Tumpukan Teknologi:** Implementasi akan memanfaatkan *cloud server* untuk komputasi AI, dengan **Python** untuk logika komputasi dan **Ontologi (OWL/RDF) / Prolog** untuk penalaran tingkat tinggi (fase *Decide*). Implementasi *chatbot* dapat dilakukan pada aplikasi web atau tablet.
+
+## Fase Evaluasi (Uji Coba Pilot)
+
+1.  **Desain Studi:** Menggunakan desain kuasi-eksperimental satu kelompok dengan pengukuran *pre-test* dan *post-test* atau desain komparatif antara interaksi suara vs. teks, selama periode intervensi pilot (misalnya, 8 minggu).
+2.  **Partisipan:** Merekrut sekelompok kecil lansia (target 30-40 orang) dari komunitas pilot (misalnya, di Bandung).
+3.  **Pengumpulan Data:** Menggunakan pendekatan *mixed-methods*:
+    *   **Kuantitatif:** Mengukur **SUS** (*System Usability Scale*) untuk kegunaan dan data log (frekuensi dan durasi interaksi suara).
+    *   **Kualitatif:** Wawancara semi-terstruktur untuk mengeksplorasi pengalaman subjektif, kegunaan yang dirasakan, dan akseptabilitas budaya dari interaksi suara.
+
+# 6. Ruang Lingkup Implementasi
+
+Ruang lingkup tugas akhir ini difokuskan pada:
+
+1.  **Subsistem I-GRACE** (Asisten Naratif) dan integrasinya dengan **O-GRACE** (untuk fungsi teknis dan integrasi *IoT/voice-input*).
+2.  Fungsionalitas spesifik yang akan diimplementasikan: **Refleksi Kehidupan dan *AI Coaching*** yang mendukung Arahan Emas **"Kehidupan yang Bermakna"** dan **"Memelihara Hubungan"**.
+3.  Pengujian terfokus pada **akurasi *speech recognition*** dan **kualitas *prompt* respons suara** yang dihasilkan oleh Mesin PUDAL, dalam konteks interaksi naratif Indonesia.
+4.  Studi ini akan dilaksanakan di lingkungan pilot yang sudah ditentukan (misalnya, ITB/Maranatha atau komunitas lansia di Bandung).
+
+#  Susunan Tim Penelitian
+
+Proyek GRACE didukung oleh tim multidisiplin di ITB dengan keahlian yang relevan:
+
+*   **Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D.** (Keahlian: Rekayasa Sistem Cerdas, TISE).
+*   **Dr. Tiur Gantini, S.T., M.T.** (Keahlian: Kecerdasan Artifisial, *Natural Language Processing* - NLP).
+*   **Dr. Allya Paramita Koesoema, S.T., M.T.** (Keahlian: *Human-Computer Interaction*, Desain Pengalaman Pengguna).
+
+# Estimasi Jadwal Proyek (8 Bulan)
+
+| Fase | Aktivitas Utama | Bulan 1-2 | Bulan 3-6 | Bulan 7-8 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Fase 1** | **Perencanaan & Desain Interaksi Suara (VUI)** | Spesifikasi Kebutuhan VUI (Co-design, HCD). | | |
+| **Fase 2** | **Implementasi & Integrasi Prototipe** | Pengembangan modul NLP dan mesin KRR (Prolog/Ontologi). | Implementasi modul Input/Output Suara (Voice IO) dan integrasi dengan Backend. | |
+| **Fase 3** | **Uji Coba & Evaluasi** | | Pengujian internal dan perbaikan. | Pelaksanaan Uji Coba Pilot (8 minggu). Analisis data (SUS, Kualitatif) & Penulisan Laporan Akhir. |
+
+***
+
+**Analogi untuk Interaksi Suara GRACE:**
+
+Mendesain interaksi suara untuk Asisten Naratif GRACE seperti membangun **sebuah telepon kuno yang terhubung ke perpustakaan AI yang canggih**. Lansia tidak perlu lagi bersusah payah mengetik di layar kecil atau berjuang dengan antarmuka yang kompleks (seperti mencari-cari tombol), tetapi cukup berbicara dengan suara mereka sendiri. Suara mereka diubah menjadi data naratif yang kaya, dan AI (perpustakaan cerdas) merespons dengan pertanyaan atau dukungan yang memicu refleksi diri, seolah-olah mereka sedang berbicara dengan seorang teman lama yang sangat bijaksana, sehingga proses **penciptaan makna dalam hidup menjadi semudah bercerita**.

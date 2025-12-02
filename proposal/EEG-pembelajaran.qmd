@@ -1,12 +1,13 @@
-**PROPOSAL TUGAS AKHIR**
+---
+subtitle: PROPOSAL TUGAS AKHIR
 
-### MODEL ADAPTIF UNTUK DETEKSI PERHATIAN MENGGUNAKAN SINYAL EEG (ELECTROENCEPHALOGRAPHY): PENDEKATAN BERBASIS KECERDASAN BUATAN UNTUK MENDUKUNG KEBERHASILAN BELAJAR
+title: "MODEL ADAPTIF UNTUK DETEKSI PERHATIAN MENGGUNAKAN SINYAL EEG (ELECTROENCEPHALOGRAPHY): PENDEKATAN BERBASIS KECERDASAN BUATAN UNTUK MENDUKUNG KEBERHASILAN BELAJAR"
 
-***
+---
 
-## BAB I PENDAHULUAN
+# BAB I PENDAHULUAN
 
-### I.1 Latar Belakang
+## Latar Belakang
 
 Deteksi perhatian merupakan aspek kognitif fundamental yang sangat krusial untuk **pembelajaran yang efektif**, kinerja kerja, dan interaksi sosial. Banyak orang, terutama siswa, mengalami masalah perhatian, termasuk *Attention-Deficit/Hyperactivity Disorder* (ADHD), yang dapat memengaruhi kinerja akademik dan kualitas hidup mereka. Di Indonesia, Survei Kesehatan Nasional 2018 menemukan bahwa 6,2% individu berusia 15 hingga 24 tahun mengalami depresi, yang mencakup gangguan perhatian.
 
@@ -16,7 +17,7 @@ Namun, penelitian ini dihadapkan pada tantangan besar, yaitu bagaimana membangun
 
 Oleh karena itu, diperlukan pengembangan **model adaptif berbasis Kecerdasan Buatan (AI)** yang bertujuan untuk meningkatkan akurasi deteksi perhatian menggunakan sinyal EEG. Model ini, yang terbukti dapat menyesuaikan diri dengan pola individu, diharapkan dapat **meningkatkan fokus dalam pembelajaran** dan menjadi dasar bagi kemajuan teknologi *neurofeedback*.
 
-### I.2 Masalah Penelitian
+## Masalah Penelitian
 
 Berdasarkan latar belakang di atas, permasalahan penelitian yang akan dirumuskan adalah sebagai berikut:
 
@@ -24,7 +25,7 @@ Berdasarkan latar belakang di atas, permasalahan penelitian yang akan dirumuskan
 2.  Sejauh mana algoritma *deep learning* dan *meta-learning* (seperti CNN, LSTM, dan MAML) dapat meningkatkan akurasi deteksi perhatian berbasis EEG dibandingkan dengan metode konvensional?
 3.  Bagaimana implementasi model adaptif ini dapat diterapkan dalam **lingkungan pembelajaran** untuk memberikan umpan balik *real-time* dalam rangka meningkatkan perhatian siswa?
 
-### I.3 Tujuan Penelitian
+## Tujuan Penelitian
 
 Adapun tujuan penelitian ini adalah:
 
@@ -32,7 +33,7 @@ Adapun tujuan penelitian ini adalah:
 2.  Menganalisis peningkatan akurasi deteksi perhatian dengan mengintegrasikan AI, khususnya *deep learning* dan *meta-learning*.
 3.  Meneliti efektivitas implementasi model adaptif dalam lingkungan pendidikan untuk **meningkatkan fokus dan perhatian siswa**.
 
-### I.4 Lingkup Permasalahan
+## Lingkup Permasalahan
 
 Lingkup permasalahan penelitian ini mencakup tiga aspek utama:
 
@@ -40,7 +41,7 @@ Lingkup permasalahan penelitian ini mencakup tiga aspek utama:
 2.  **Analisis Peningkatan Akurasi Menggunakan AI:** Evaluasi berbagai metode AI seperti *Convolutional Neural Network* (CNN) dan *Long Short-Term Memory* (LSTM) untuk deteksi perhatian. Melakukan perbandingan kinerja (akurasi, presisi, *recall*, F1-score) model AI dengan model konvensional.
 3.  **Implementasi dalam Bidang Pendidikan:** Meneliti penerapan model adaptif dalam lingkungan pendidikan untuk meningkatkan fokus dan perhatian siswa.
 
-### I.5 Hipotesis Penelitian
+## Hipotesis Penelitian
 
 Hipotesis utama yang diajukan dalam penelitian ini adalah:
 
@@ -49,24 +50,24 @@ Hipotesis utama yang diajukan dalam penelitian ini adalah:
 
 ***
 
-## BAB II METODOLOGI PENELITIAN
+# BAB II METODOLOGI PENELITIAN
 
-### II.1 Pendekatan Penelitian
+## II.1 Pendekatan Penelitian
 
 Penelitian ini menggunakan pendekatan kuantitatif dengan metode eksperimen untuk mengembangkan dan menguji model adaptif deteksi perhatian berbasis EEG. Metodologi yang digunakan adalah **Design Science Research Methodology (DSRM)**, yang berfokus pada perancangan, pengembangan, dan evaluasi artefak (yaitu model AI adaptif) untuk memecahkan masalah praktis.
 
-### II.2 Tahapan Penelitian
+## II.2 Tahapan Penelitian
 
 Tahapan penelitian ini akan mencakup:
 
-#### 1. Pengumpulan Data EEG
+### 1. Pengumpulan Data EEG
 
 *   Menggunakan *dataset* EEG yang tersedia secara publik dan relevan untuk deteksi perhatian, seperti **MEMA**, **EEG Mental Attention State (Kaggle)**, **mEBAL**, atau **EEG-Attention RSVP Experiment (OpenNeuro)**, untuk memastikan keragaman data.
 *   Data dibagi per subjek menjadi tugas-tugas *meta-learning*:
     *   ***Support set***: 5–10 sampel EEG untuk adaptasi cepat (*few-shot learning*).
     *   ***Query set***: 15–20 sampel untuk evaluasi.
 
-#### 2. Preprocessing Data
+### 2. Preprocessing Data
 
 Tujuan tahap ini adalah membersihkan sinyal EEG dari *noise* dan *artefak*, yang merupakan masalah umum akibat gerakan mata dan aktivitas otot.
 
@@ -74,14 +75,14 @@ Tujuan tahap ini adalah membersihkan sinyal EEG dari *noise* dan *artefak*, yang
 *   **Penghilangan Artefak:** Menggunakan teknik seperti **Independent Component Analysis (ICA)** untuk menghilangkan artefak gerakan mata.
 *   **Normalisasi:** Normalisasi per subjek diterapkan untuk mengurangi variabilitas antar-subjek.
 
-#### 3. Ekstraksi Fitur
+### 3. Ekstraksi Fitur
 
 Sinyal mentah diubah menjadi representasi numerik yang berarti:
 
 *   **Fitur *Handcrafted*:** Meliputi *Band Power* (daya gelombang theta, alpha, beta), ukuran **Entropy** (seperti Shannon, sampel, dan permutasi, yang mengukur kompleksitas sinyal), dan *Fractal Dimension*.
 *   **Fitur Otomatis:** Dipelajari menggunakan lapisan *Convolutional* (CNN) untuk menangkap fitur spasial, diikuti oleh lapisan *Recurrent* (LSTM) untuk memodelkan perubahan temporal yang terkait dengan perhatian.
 
-#### 4. Pengembangan Model AI
+### 4. Pengembangan Model AI
 
 Model utama yang dikembangkan adalah model adaptif, dengan model *baseline* (CNN atau LSTM) digunakan untuk perbandingan kinerja.
 
@@ -90,7 +91,7 @@ Model utama yang dikembangkan adalah model adaptif, dengan model *baseline* (CNN
     *   ***Adaptation Phase***: Untuk subjek baru, model hanya memerlukan 5–10 sampel EEG untuk menyempurnakan pengaturannya (*fine-tuning*).
 *   **Model Deep Learning:** Implementasi arsitektur **LSTM** (efektif menangkap pola temporal dan dependensi jangka panjang) dan **CNN** (efektif menangkap fitur spasial).
 
-#### 5. Evaluasi Model
+### 5. Evaluasi Model
 
 Evaluasi dilakukan untuk menilai kemanjuran, adaptabilitas, dan generalisasi sistem.
 
@@ -110,7 +111,7 @@ Deteksi perhatian adalah aspek kognitif fundamental yang sangat penting untuk **
 
 Berikut adalah proses bagaimana sinyal EEG membantu proses belajar, terutama dalam konteks aplikasi adaptif dan Neurofeedback:
 
-### 1. Peran Sinyal EEG dalam Perhatian
+## 1. Peran Sinyal EEG dalam Perhatian
 
 EEG merekam aktivitas listrik otak dalam bentuk gelombang otak, yang masing-masing mencerminkan berbagai tingkat aktivitas kognitif dan emosional.
 
@@ -118,7 +119,7 @@ EEG merekam aktivitas listrik otak dalam bentuk gelombang otak, yang masing-masi
 *   **Beta (12–30 Hz):** Mengindikasikan **perhatian yang berkelanjutan**, pemecahan masalah, dan keterlibatan aktif. Peningkatan kekuatan Beta selama aktivitas mental yang gigih dan pemecahan masalah aktif menunjukkan **fokus**.
 *   **Theta (4–8 Hz):** Berkaitan dengan kreativitas, intuisi, dan kantuk. Aktivitas Theta yang tinggi dapat dikaitkan dengan gangguan perhatian atau stres memori kerja.
 
-### 2. Mekanisme Bantuan Belajar Melalui Neurofeedback (NFT)
+## 2. Mekanisme Bantuan Belajar Melalui Neurofeedback (NFT)
 
 NFT adalah intervensi non-farmakologis yang memanfaatkan **neuroplastisitas** otak, memungkinkan individu untuk belajar meregulasi respons neural mereka sendiri dengan menyediakan **umpan balik *real-time*** (visual atau auditori) tentang aktivitas otak mereka.
 
@@ -127,7 +128,7 @@ Dalam konteks belajar:
 *   **Peningkatan Fokus:** NFT telah terbukti efektif dalam meredakan gejala *Attention-Deficit/Hyperactivity Disorder* (ADHD) dengan mengurangi hiperaktivitas dan **meningkatkan perhatian**.
 *   **Penerapan:** NFT berbasis AI dapat **meningkatkan fokus dalam pembelajaran** dan membantu individu yang mengalami gangguan konsentrasi.
 
-### 3. Proses Adaptif Berbasis AI untuk Pembelajaran
+## 3. Proses Adaptif Berbasis AI untuk Pembelajaran
 
 Tantangan utama dalam menggunakan EEG adalah variabilitas antar individu (*inter-subject variability*) dan sinyal yang non-stasioner. Model adaptif berbasis AI dirancang untuk mengatasi masalah ini, memungkinkan sistem untuk menyesuaikan diri dengan pola unik setiap individu dan memberikan bantuan belajar yang lebih personal.
 
@@ -142,7 +143,7 @@ Proses ini melibatkan langkah-langkah berikut:
     *   **MAML (Model-Agnostic Meta-Learning):** Memungkinkan model untuk **beradaptasi dengan cepat** pada individu baru hanya dengan sedikit data (*few-shot learning*), sehingga meningkatkan generalisasi model di berbagai subjek, yang sangat berguna dalam skenario pendidikan nyata.
 5.  **Pemberian Umpan Balik Adaptif (*Adaptive Feedback*):** Berdasarkan klasifikasi *real-time* (fokus atau tidak fokus), sistem AI menghasilkan umpan balik yang disesuaikan.
 
-### 4. Kontribusi Bantuan Belajar di Bidang Pendidikan
+## 4. Kontribusi Bantuan Belajar di Bidang Pendidikan
 
 Penerapan model adaptif berbasis EEG dalam konteks pendidikan memiliki beberapa manfaat spesifik:
 

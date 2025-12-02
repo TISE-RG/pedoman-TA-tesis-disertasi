@@ -1,0 +1,123 @@
+---
+title: "Desain dan Implementasi Prototipe Asisten Naratif Berbasis AI (I-GRACE) untuk Memfasilitasi Penalaran Otobiografis dalam Peningkatan Kesejahteraan Lansia"
+subtitle: Proposal Tugas Akhir
+---
+# 1. Latar Belakang dan Motivasi
+
+Indonesia sedang menghadapi pergeseran demografis yang signifikan, di mana populasi lansia (berusia 60 tahun ke atas) diproyeksikan akan mencapai hampir **20% pada tahun 2045**. Tren ini menimbulkan tantangan sosio-ekonomi yang mendesak, termasuk peningkatan risiko **isolasi sosial**, **kehilangan tujuan hidup**, dan ketergantungan ekonomi. Kerangka dukungan yang ada saat ini seringkali terfragmentasi dan terbatas, berfokus pada pengukuran (seperti HAI dan SPTK) daripada menyediakan **dukungan yang terintegrasi, dapat ditindaklanjuti, dan dipersonalisasi**.
+
+Proyek GRACE (*Growing Healthily, Resourceful, Active, and Enriching Life*) diusulkan dengan visi transformatif, yang terkandung dalam metafora **"Panggung Kehidupan Megah"** (*Splendid Theater of Life*). Paradigma **Triune-Intelligence Smart-Engineering (TISE)** yang menjadi landasan GRACE secara radikal menggeser fokus dari "mengelola penurunan" menjadi **"memampukan kontribusi"**.
+
+Agen personal assistant yang diusulkan, yaitu **"Asisten Naratif" I-GRACE**, bertujuan untuk mengisi **Kesenjangan Intervensi AI** (*AI Intervention Gap*) dengan melampaui dukungan fungsional. Sebaliknya, I-GRACE dirancang untuk secara aktif memfasilitasi proses psikologis fundamental dalam **pembuatan makna** (*meaning-making*), atau yang dikenal sebagai **penalaran otobiografis** (*autobiographical reasoning*).
+
+# Rumusan Masalah
+
+Berdasarkan kebutuhan untuk menciptakan agen personal assistant yang transformatif dan selaras dengan budaya, rumusan masalah dalam tugas akhir ini adalah:
+
+1.  Bagaimana merancang dan mengembangkan **prototipe fungsional Asisten Naratif I-GRACE**, sebuah agen AI percakapan yang berpusat pada manusia (*human-centric*) dan sesuai dengan konteks budaya Indonesia?
+2.  Bagaimana mengimplementasikan logika intervensi AI melalui **Mesin Kognitif PUDAL** (*Perceive, Understand, Decide, Act, Learn*) untuk secara efektif melakukan **ekstraksi tema naratif** (misalnya, *Redemption*, *Contamination*, *Agency*) dari input pengguna menggunakan **Natural Language Processing (NLP)**?
+3.  Bagaimana Asisten Naratif dapat menghasilkan dan mengirimkan **prompt percakapan yang suportif dan tidak preskriptif** yang dirancang untuk memicu penalaran otobiografis yang lebih adaptif pada lansia?
+4.  Seberapa besar **kegunaan (** ***usability*** **)** dan **akseptabilitas budaya** prototipe Asisten Naratif yang dikembangkan, sebagaimana diukur oleh **Indeks GRACE** dan metrik lainnya, dalam sebuah studi pilot?
+
+# Tujuan Penelitian
+
+Tujuan utama dari tugas akhir ini adalah untuk:
+
+1.  **Merancang arsitektur fungsional** Asisten Naratif I-GRACE, yang selaras dengan Lima Arahan Emas GRACE, terutama **Kehidupan yang Bermakna** dan **Memelihara Hubungan**.
+2.  **Mengimplementasikan prototipe fungsional** agen AI percakapan I-GRACE, termasuk subsistem NLP untuk **ekstraksi tema naratif**.
+3.  **Mengoperasionalkan siklus kognitif PUDAL** sebagai mesin logika intervensi, yang menggunakan basis pengetahuan formal (Ontologi dan Prolog) untuk **memutuskan strategi prompt** yang paling sesuai untuk mendorong narasi penebusan (*redemption narratives*).
+4.  **Mengevaluasi secara empiris** kegunaan (*System Usability Scale*/SUS) dan akseptabilitas Asisten Naratif dalam uji coba pilot terkontrol pada komunitas lansia di Indonesia.
+
+# Kontribusi Penelitian
+
+Kontribusi yang diharapkan dari tugas akhir ini adalah:
+
+1.  **Artefak Teknologi:** Prototipe fungsional **Asisten Naratif I-GRACE** yang telah divalidasi, berfungsi sebagai alat *meaning-making* berbasis AI untuk lansia, yang merupakan bagian dari subsistem I-GRACE.
+2.  **Kontribusi Ilmiah:** Menyediakan model operasional yang mendetail untuk **intervensi AI berbasis Psikologi Naratif** (misalnya, teknik *unique outcomes*) dalam kerangka kerja **TISE**.
+3.  **Kontribusi Sosial:** Secara langsung meningkatkan kapasitas individu untuk refleksi diri (*self-reflection*) yang bertujuan untuk **memperkaya percakapan manusia** dan **meningkatkan kesejahteraan holistik** lansia di Indonesia.
+
+# Studi Kepustakaan
+Sistem GRACE (Growing Healthily, Resourceful, Active, and Enriching Life) adalah sebuah ekosistem komputasi komunitas berbasis Kecerdasan Artifisial (AI) sosio-teknis yang dirancang secara holistik untuk **meningkatkan kualitas hidup lansia di Indonesia**.
+
+Sistem ini disusun oleh berbagai agen penyusun dan pendukung, yang dapat dikategorikan menjadi subsistem arsitektur fungsional, mesin kecerdasan, dan pemangku kepentingan manusia.
+
+## Agen Penyusun Utama: Lima Subsistem Arsitektur (I-F-C-O-G)
+
+Inti dari arsitektur sistem GRACE adalah **lima subsistem terintegrasi** yang dirancang untuk bekerja secara sinergis, mencerminkan arsitektur berlapis untuk pemberdayaan manusia:
+
+| Subsistem | Fokus Utama | Peran Kunci dan Fungsi |
+| :--- | :--- | :--- |
+| **I-GRACE (Individual Assistant)** | Misi hidup dan Pertumbuhan Pribadi | **Rumah bagi "Asisten Naratif" AI** yang memfasilitasi refleksi hidup dan nilai-nilai pribadi. Menyediakan *AI coaching* dan rekomendasi aktivitas yang dipersonalisasi, serta mengelola agenda harian yang bermakna. |
+| **F-GRACE (Family & Friends)** | Hubungan Sosial dan Emosional | Mendukung komunikasi intim, pencatatan cerita dan sejarah keluarga, dan penguatan hubungan antar generasi. Peran krusialnya adalah **menanamkan nilai-nilai budaya dan keluarga Indonesia** ke dalam sistem. |
+| **C-GRACE (Community)** | Kontribusi dan Aktivitas Komunitas | Inti dari komputasi komunitas. Menyediakan platform untuk pameran karya dan mentoring ("Wisdom as a Service"), memfasilitasi kegiatan sukarela, dan menerapkan gamifikasi untuk mendorong kontribusi. |
+| **O-GRACE (Operational System)** | Dukungan Teknis dan Operasional | Berfungsi sebagai **tulang punggung teknis** yang menangani integrasi sistem, keamanan dan etika data, menyediakan *helpdesk* cerdas, dan mengintegrasikan perangkat IoT (sensor rumah dan monitor kesehatan). |
+| **G-GRACE (Governance & Economy)** | Tata Kelola dan Keberlanjutan Ekonomi | Memastikan keberlanjutan ekosistem. Berfokus pada manajemen pemangku kepentingan, pendanaan berkelanjutan, serta pengembangan model pasar dan insentif. |
+
+## Agen Kecerdasan dan Logika
+
+Kecerdasan GRACE diwujudkan melalui beberapa mesin komputasi dan logika yang didukung oleh AI:
+
+1.  **Asisten Naratif (Narrative Assistant):** Ini adalah **agen AI percakapan** (*chatbot*) yang berfungsi sebagai alat canggih. Peran utamanya adalah memfasilitasi **Penalaran Otobiografis** (*Autobiographical Reasoning*), membantu lansia membangun narasi kehidupan yang koheren, berdaya, dan bermakna.
+2.  **Mesin Kognitif PUDAL (Perceive, Understand, Decide, Act, Learn):** Ini adalah "otak" adaptif dari sistem GRACE yang mengeksekusi siklus belajar terus-menerus. AI menggerakkan setiap fase PUDAL, mulai dari **Perceive** (menggunakan NLP untuk ekstraksi tema naratif) hingga **Learn** (mengamati respons pengguna dan perubahan skor Indeks GRACE).
+3.  **Mesin Inti (Core Engine):** Bertanggung jawab untuk mengubah data mentah (dari sensor IoT, input pengguna) menjadi model AI yang terlatih, wawasan, dan prediksi.
+4.  **Mesin PSKVE (PSKVE Engine):** Mengorkestrasi aliran nilai multi-dimensi (Product, Service, Knowledge, Value, Environment) untuk menjamin keberlanjutan ekosistem dan mengelola konversi antar dimensi nilai.
+5.  **Manajemen Tujuan & Indeks GRACE (GM):** Bertanggung jawab untuk melacak kemajuan terhadap Lima Arahan Emas dan menghitung **Indeks GRACE**. Indeks ini berfungsi sebagai indikator representatif kesejahteraan dan sebagai *objective function* untuk model *machine learning*.
+6.  **Basis Pengetahuan dan Ontologi:** Ontologi (menggunakan OWL/RDF) digunakan untuk memodelkan domain GRACE secara formal. **Prolog** digunakan sebagai bahasa pemrograman logika untuk mengimplementasikan ontologi sebagai basis pengetahuan aktif guna **melakukan penalaran tingkat tinggi** untuk keputusan AI (fase *Decide* PUDAL).
+
+## Landasan Filosofis dan Manusia (Agen Pendukung)
+
+Sistem GRACE didukung oleh kerangka kerja filosofis dan jaringan kolaboratif manusia:
+
+### Landasan Filosofis (TISE)
+
+Pendekatan rekayasa GRACE didasarkan pada paradigma **Triune-Intelligence Smart-Engineering (TISE)**, yang berpusat pada prinsip **"Insinyur memberdayakan manusia"**. TISE mengorkestrasi sinergi dari tiga pilar kecerdasan yang bertindak sebagai kompas dan arahan bagi sistem:
+
+1.  **Kecerdasan Alami (Natural Intelligence - NI):** Merepresentasikan kapasitas pengambilan keputusan unik manusia (lansia itu sendiri), yang memberikan arahan **"APA"** yang harus dilakukan.
+2.  **Kecerdasan Budaya (Cultural Intelligence - CI):** Mencakup norma dan nilai-nilai kolektif Indonesia (seperti *gotong royong* dan penghormatan terhadap keluarga), yang memberikan kompas moral **"MENGAPA"** sebuah tindakan perlu dilakukan.
+3.  **Kecerdasan Artifisial (Artificial Intelligence - AI):** Berfungsi sebagai pelaksana komputasi yang efisien, yang memberikan jawaban **"BAGAIMANA"** sebuah tujuan dapat dicapai secara optimal.
+
+### Pemangku Kepentingan Manusia dan Mitra
+
+Agen manusia berfungsi sebagai subjek utama, sumber daya, dan mitra kolaboratif:
+
+*   **Lansia (Elderly Individual):** Mereka adalah **protagonis aktif** di "Panggung Kehidupan Megah". Seluruh sistem dirancang untuk memberdayakan mereka dan meningkatkan kapasitas mereka sendiri (*Human-in-the-Loop*).
+*   **Keluarga dan Pengasuh:** Mereka adalah sumber utama dukungan emosional dan fisik. Subsistem **F-GRACE** secara khusus fokus pada penguatan hubungan dengan agen-agen ini.
+*   **Penyedia Layanan Kesehatan, Pemerintah, dan Bisnis:** Mereka adalah bagian dari jaringan dukungan yang lebih luas, memberikan akses ke layanan dan sumber daya.
+*   **Tim Peneliti ITB:** Dipimpin oleh **Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D.** (Penggagas TISE), bersama dengan Dr. Tati L. R. Mengko, Tiur Gantini, Allya Paramita Koesoema, dan Laili Wahyunita.
+*   **Mitra Internasional:** Kolaborasi strategis dengan **Prof. Theng Yin Leng** (Direktur Eksekutif **NTU ARISE** / *Ageing Research Institute for Society and Education*) dari Singapura. Kemitraan ini melengkapi keahlian ITB dengan keahlian kelas dunia dalam *Human-Computer Interaction* (HCI) dan geronteknologi.
+
+
+# Metodologi Penelitian
+
+Tugas akhir ini akan mengikuti kerangka **Design Science Research Methodology (DSRM)**, dengan integrasi kuat dari prinsip-prinsip desain yang berpusat pada manusia.
+
+## Fase Desain (Artifact Development)
+
+1.  **Desain Berpusat pada Manusia (HCD):** Melaksanakan lokakarya **co-design partisipatif** dengan lansia untuk memastikan fungsionalitas dan alur interaksi *chatbot* ramah lansia.
+2.  **Perancangan Arsitektur Fungsional:** Menentukan tumpukan teknologi dan mengintegrasikan model pengetahuan formal:
+    *   **Ontologi (OWL/RDF):** Memodelkan domain pengetahuan secara formal (misalnya, definisi tema naratif, properti aktivitas).
+    *   **Prolog:** Digunakan sebagai mesin inferensi untuk menerapkan logika keputusan tingkat tinggi (fase *Decide* PUDAL).
+    *   **Python:** Digunakan untuk implementasi model **NLP** (ekstraksi tema naratif) dan orkestrasi sistem.
+
+## Fase Implementasi (PUDAL Cycle Operationalization)
+
+1.  ***Perceive/Understand***: Mengembangkan model NLP untuk klasifikasi segmen teks/suara ke dalam tema naratif (Penebusan vs. Kontaminasi, Agensi vs. Kepasifan, Persekutuan vs. Isolasi).
+2.  ***Decide/Act***: Mengimplementasikan logika berbasis aturan (KRR) yang memicu *prompt* intervensi yang tepat, seperti menyarankan refleksi tentang **kekuatan yang muncul** dari pengalaman negatif.
+3.  ***Learn***: Membangun mekanisme umpan balik untuk mempersonalisasi model rekomendasi berdasarkan respons pengguna dan perubahan skor **Indeks GRACE** dari waktu ke waktu.
+
+## Fase Evaluasi (Pilot Trial)
+
+1.  **Desain Studi:** Menggunakan desain kuasi-eksperimental dengan pengukuran *pre-test* dan *post-test* selama periode intervensi 8 minggu pada sampel lansia (target 30-40 orang).
+2.  **Pengumpulan Data:** Menggunakan pendekatan **metode campuran** (*mixed-methods*):
+    *   **Kuantitatif:** Pengukuran Indeks GRACE, **SUS** (*System Usability Scale*), dan data log penggunaan.
+    *   **Kualitatif:** Wawancara semi-terstruktur untuk menilai pengalaman subjektif, kegunaan yang dirasakan, dan kesesuaian budaya.
+
+### 6. Estimasi Jadwal Proyek (8 Bulan)
+
+| Fase | Aktivitas Utama | Bulan 1–2 | Bulan 3–4 | Bulan 5–8 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Fase 1 (Fondasi & Desain)** | Perancangan Arsitektur I-GRACE & Spesifikasi Kebutuhan (HCD). | ██████ | | |
+| **Fase 2 (Pengembangan Inti AI)** | Implementasi Backend & Model NLP (Perceive/Understand). Implementasi Mesin PUDAL (Decide/Act/Learn) dan Integrasi Ontologi. | | ██████ | |
+| **Fase 3 (Integrasi & Pengujian)** | Pengembangan Antarmuka Chatbot (Frontend) dan Pengujian Internal. Rekrutmen Peserta Pilot. | | ██████ | ██████ |
+| **Fase 4 (Evaluasi & Laporan)** | Pelaksanaan Uji Coba Pilot (8 Minggu). Analisis Data Kuantitatif & Kualitatif. Penulisan Tugas Akhir. | | | ██████ |
+

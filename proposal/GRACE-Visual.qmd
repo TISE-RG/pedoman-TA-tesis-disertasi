@@ -1,0 +1,125 @@
+---
+
+subtitle: Proposal Tugas Akhir
+
+title: Desain dan Implementasi Visualisasi Interaktif Indeks GRACE dan Peta Hidup Naratif (*GRACE Life Map*) yang Berpusat pada Lansia
+---
+# Latar Belakang dan Motivasi
+
+Indonesia sedang menghadapi tantangan demografis yang signifikan dengan meningkatnya proporsi populasi lansia. Meskipun teknologi Kecerdasan Artifisial (AI) menawarkan potensi besar untuk mendukung penuaan yang sukses, sebagian besar lansia menghadapi **kesenjangan digital** (*digital divide*) dan kesulitan dalam menggunakan antarmuka teknologi yang kompleks.
+
+Proyek GRACE (*Growing Healthily, Resourceful, Active, and Enriching Life*) hadir dengan visi transformatif, yang diwujudkan melalui metafora **"Panggung Kehidupan Megah"** (*Splendid Theater of Life*). Dalam visi ini, lansia diposisikan sebagai protagonis aktif yang diberdayakan untuk hidup bermakna.
+
+Inti dari sistem GRACE adalah dua artefak krusial yang memerlukan visualisasi yang cermat:
+
+1.  **Indeks GRACE:** Sebuah instrumen pengukuran holistik dan **dapat ditindaklanjuti** (*actionable*). Indeks ini mengukur kemajuan lansia berdasarkan **Lima Arahan Emas** (*Five Golden Directives*).
+2.  **Asisten Naratif I-GRACE:** Agen AI percakapan yang dirancang untuk memfasilitasi **Penalaran Otobiografis**, yang bertujuan mengubah narasi hidup yang membatasi menjadi narasi yang **berdaya (agensi) dan penebusan (*redemption*)**.
+
+Visualisasi adalah jembatan utama untuk mentransformasi data kompleks ini—termasuk skor kesejahteraan, tema naratif (seperti *Redemption* vs. *Contamination*), dan rekomendasi AI—menjadi informasi yang **intuitif, tidak menghakimi, dan bermakna** bagi lansia. Tanpa visualisasi yang efektif dan ramah lansia, sistem AI yang canggih sekalipun dapat gagal dalam mencapai tujuan **pemberdayaan manusia** (*empower humans*) yang diamanatkan oleh paradigma **Triune-Intelligence Smart-Engineering (TISE)**.
+
+# Rumusan Masalah
+
+Berdasarkan konteks dan kebutuhan di atas, rumusan masalah dalam tugas akhir ini adalah:
+
+1.  Bagaimana merancang dan mengimplementasikan antarmuka visual (***Visual User Interface/VUI***) untuk **Indeks GRACE** yang **intuitif, ramah lansia, dan berbasis budaya**, sehingga secara efektif menampilkan skor Lima Arahan Emas (Kehidupan Bermakna, Hubungan Penuh Kasih, Kontribusi Bermakna, Aktif dan Bugar, Dukungan Berkelanjutan)?
+2.  Bagaimana mengembangkan dan mengevaluasi visualisasi **Peta Hidup GRACE (*GRACE Life Map*)** yang mampu memetakan "adegan-adegan kunci" dan tema-tema naratif (Penebusan/Kontaminasi) dari input Asisten Naratif, sehingga dapat memicu **penalaran otobiografis** yang lebih adaptif pada pengguna?
+3.  Seberapa besar visualisasi interaktif yang diimplementasikan (termasuk "Bunga GRACE") dapat meningkatkan **kegunaan** (*usability*), **keterlibatan pengguna**, dan **pemahaman** lansia terhadap kemajuan kesejahteraan mereka dalam subsistem I-GRACE?
+
+# Tujuan Penelitian
+
+Tujuan utama dari tugas akhir ini adalah untuk:
+
+1.  Merancang spesifikasi desain dan prototipe visualisasi **Indeks GRACE** (misalnya, **"Bunga GRACE"** atau diagram radar sederhana) yang menormalisasi dan menampilkan kemajuan lansia terhadap lima komponen (G, R, A, C, E).
+2.  Merancang dan mengimplementasikan prototipe visualisasi naratif **Peta Hidup GRACE** untuk mengekskavasi masa lalu dan merencanakan "pencarian naratif" di masa depan.
+3.  Mengintegrasikan visualisasi tersebut ke dalam prototipe aplikasi I-GRACE (Asisten Naratif) berbasis web.
+4.  Mengevaluasi secara empiris kegunaan (menggunakan ***System Usability Scale/SUS***) dan akseptabilitas budaya dari visualisasi yang dihasilkan melalui uji coba pilot terkontrol pada sekelompok lansia.
+
+#  Kontribusi Penelitian
+
+Kontribusi yang diharapkan dari tugas akhir ini adalah:
+
+1.  **Artefak Teknologi:** Prototipe fungsional aplikasi I-GRACE dengan **visualisasi yang tervalidasi** yang secara langsung mendukung Lima Arahan Emas dan meningkatkan pengalaman pengguna lansia.
+2.  **Kontribusi Ilmiah:** Menyediakan model perancangan visualisasi data kesejahteraan yang **tidak bersifat menghakimi** dan sesuai budaya (CI) dalam kerangka rekayasa sistem cerdas TISE. Ini juga akan memberikan landasan ilmiah bagi pengembangan alat visualisasi naratif (**GRACE Life Map**) untuk memfasilitasi psikologi naratif.
+3.  **Kontribusi Praktis:** Mengatasi masalah *digital divide* dengan memastikan bahwa keluaran dari kecerdasan AI dapat dipahami oleh lansia melalui antarmuka yang sangat sederhana, intuitif, dan visual.
+
+# Studi Literatur
+
+Konsep layar digital dan kamera yang berfungsi sebagai pusat interaksi dan "Cermin Ajaib" (*"Mirror Mirror on the Wall"*) secara signifikan dapat meningkatkan sistem GRACE dengan mendukung subsistem utamanya, khususnya **I-GRACE (Asisten Individu)** dan **F-GRACE (Keluarga & Teman)**, serta mengoperasionalkan filosofi **"Panggung Kehidupan Megah"**.
+
+Visualisasi dan interaksi melalui layar dan kamera ini memfasilitasi dua Arahan Emas (***Golden Directives***) utama dan mengoptimalkan siklus kognitif PUDAL (**Perceive-Understand-Decide-Act-Learn**) yang menjadi inti kecerdasan AI dalam GRACE.
+
+Berikut adalah bagaimana visualisasi ini meningkatkan sistem GRACE:
+
+---
+
+## Peningkatan Komunikasi Sosial (F-GRACE)
+
+Sebagai pusat interaksi dengan keluarga dan teman, layar digital dan kamera berperan krusial dalam mendukung Arahan Emas **Memelihara Hubungan (Nurturing RELATIONS)**:
+
+*   **Fasilitasi Komunikasi Intim:** Layar ini secara langsung mendukung **komunikasi intim** dan **penguatan hubungan antar generasi** (***intergenerational relationships***) yang merupakan fungsi utama F-GRACE. Layar ini dapat menyederhanakan **panggilan video, pesan, dan berbagi foto** dengan anggota keluarga dan teman.
+*   **Dukungan Emosional:** Sistem AI dapat menyediakan **saran pemicu percakapan** (*conversation starter suggestions*) atau **prompt apresiasi** pada layar untuk memfasilitasi percakapan yang lebih dalam dan memuaskan secara emosional dengan orang terkasih.
+*   **Jembatan Antar Generasi:** Layar berfungsi sebagai jembatan yang aman untuk **mentransfer kearifan, nilai-nilai, dan identitas budaya** antar generasi.
+*   **Mengurangi Isolasi:** Dengan menawarkan platform yang ramah pengguna untuk terhubung, sistem ini secara langsung mengatasi **isolasi sosial** dan **kesepian**.
+
+## Peningkatan Refleksi Diri dan AI Coaching (I-GRACE)
+
+Sebagai "Cermin Ajaib," layar dan kamera menjadi antarmuka utama bagi **Asisten Naratif I-GRACE** (***Narrative Assistant***), yang mendukung Arahan Emas **Kehidupan yang Bermakna (Meaningful LIFE)**:
+
+*   **Input Narasi dan Penalaran Otobiografis:** Kamera dan mikrofon memungkinkan lansia memberikan **input melalui refleksi suara**. Input ini disalurkan ke Mesin Kognitif PUDAL dalam fase ***Perceive/Understand***, di mana AI menggunakan **Pemrosesan Bahasa Alami (NLP)** untuk **melakukan ekstraksi tema naratif** pada teks (atau transkripsi suara).
+*   **Fungsi "Cermin Ajaib" (Persepsi):** Jika sistem dilengkapi dengan visi komputer (***Computer Vision***), kamera dapat digunakan untuk **pengenalan aktivitas** atau **pemantauan keselamatan** (misalnya, deteksi jatuh atau ketidakaktifan yang tidak biasa). Dalam konteks proyek terkait, kamera telah digunakan untuk **menangkap dan mengenali teks pada pembacaan alat kesehatan digital**.
+*   **Feedback Reflektif:** Layar digunakan untuk menampilkan **prompt percakapan yang suportif dan tidak preskriptif** yang dihasilkan oleh AI (fase ***Act*** PUDAL). *Prompt* ini dirancang untuk **memicu penalaran otobiografis yang lebih adaptif** (***redemptive autobiographical reasoning***). Contohnya, jika AI mendeteksi narasi *Contamination* (narasi negatif), layar akan menampilkan pertanyaan untuk mencari **pelajaran yang didapat atau kekuatan yang muncul** (*unique outcomes* atau *sparkling moments*).
+*   **Visualisasi Progres (Indeks GRACE):** Layar menyajikan metrik keberhasilan (seperti **Indeks GRACE**) secara visual. Indeks ini mencerminkan kemajuan lansia terhadap Lima Arahan Emas. Visualisasi ini dapat disajikan sebagai "Bunga GRACE" atau **diagram radar sederhana** yang menunjukkan sejauh mana lansia merasa didukung dalam aspek *Growth*, *Relations*, *Activity*, *Contribution*, dan *Empowerment*.
+
+## Peningkatan Operasional dan Aksesibilitas (O-GRACE)
+
+Layar dan kamera dalam lingkungan cerdas (***Smart Environment***) bertindak sebagai **Antarmuka Pengguna (UI)** yang intuitif, yang esensial untuk mengatasi tantangan **kesenjangan digital** yang dihadapi lansia:
+
+*   **Antarmuka Multimodal:** Layar sentuh besar, dikombinasikan dengan kemampuan **kontrol suara** melalui kamera/mikrofon, menciptakan antarmuka yang lebih mudah diakses dan **ramah lansia**, mengatasi keterbatasan fisik (penglihatan, ketangkasan).
+*   **Manajemen Lingkungan:** Layar dapat berfungsi sebagai **manajer rumah pintar**. Lansia dapat melihat dan mengotomatisasi **kualitas ambien** (pencahayaan, suhu) atau mengoperasikan **Perangkat IoT** (***Internet of Things***) yang terhubung di lingkungan mereka.
+*   **Pengurangan Hambatan Kognitif:** Layar ini dirancang untuk menggunakan tata letak yang **jelas dan konsisten** dan **meminimalkan langkah** untuk tugas-tugas umum, membantu mengatasi penurunan kognitif.
+*   **Sistem Peringatan:** Layar berfungsi untuk menampilkan **peringatan kesehatan** atau **notifikasi keamanan** (misalnya, deteksi jatuh) yang diproses oleh subsistem **O-GRACE (Operational System)**, yang menyediakan tulang punggung teknis sistem.
+
+# Metodologi Penelitian
+
+Tugas akhir ini akan menggunakan kerangka **Design Science Research Methodology (DSRM)**, yang bertujuan untuk merancang, membangun, dan mengevaluasi artefak teknologi. Pendekatan ini akan diintegrasikan dengan metodologi **Human-Centered Design (HCD)** untuk memastikan desain berpusat pada lansia.
+
+## A. Fase Desain (Bulan 1–2)
+
+1.  **Analisis Kebutuhan Visualisasi:** Mengidentifikasi data apa yang paling penting untuk ditampilkan (Lima Arahan Emas, tema naratif, dan saran AI).
+2.  **Perancangan Konseptual VUI:** Mengembangkan *wireframe* dan *mockup* visualisasi Indeks GRACE (misalnya, Bunga GRACE atau diagram radar) dan Peta Hidup GRACE. Desain harus memprioritaskan tata letak yang **jelas, konsisten**, dan **meminimalkan langkah** untuk tugas-tugas umum, mengatasi potensi penurunan kognitif.
+
+## B. Fase Implementasi (Bulan 3–5)
+
+1.  **Pengembangan Frontend/UI:** Mengimplementasikan visualisasi Indeks GRACE dan Peta Hidup GRACE dalam prototipe aplikasi web I-GRACE (berpotensi menggunakan *framework* JavaScript seperti React/Vue).
+2.  **Integrasi Data:** Menghubungkan *frontend* visualisasi dengan logika *backend* Mesin Kognitif PUDAL. Visualisasi harus mampu menerima data skor dari **Manajemen Tujuan & Indeks GRACE (GM)** dan data naratif dari **Model Machine Learning & Analitik (ML)** yang melakukan ekstraksi tema naratif.
+
+## C. Fase Evaluasi (Bulan 7–8)
+
+1.  **Uji Coba Pilot:** Merekrut sekelompok kecil lansia dari komunitas pilot (misalnya, di Bandung).
+2.  **Pengumpulan Data:** Menggunakan pendekatan *mixed-methods*:
+    *   **Kuantitatif:** Mengukur **System Usability Scale (SUS)** untuk menilai kemudahan penggunaan visualisasi. Mengumpulkan data log (misalnya, waktu yang dihabiskan untuk melihat visualisasi dan frekuensi penggunaan).
+    *   **Kualitatif:** Wawancara semi-terstruktur untuk menilai **pemahaman, akseptabilitas budaya, dan kualitas pengalaman subjektif**. Penilaian akan fokus pada apakah visualisasi mendorong refleksi diri adaptif dan tidak terasa menghakimi.
+
+# 6. Ruang Lingkup dan Fokus
+
+Ruang lingkup tugas akhir ini difokuskan pada:
+
+1.  **Subsistem I-GRACE (Asisten Naratif):** Menjadi konteks utama implementasi visualisasi.
+2.  **Visualisasi Indeks GRACE:** Implementasi fungsional dari model perhitungan skor lima dimensi (G, R, A, C, E) dan tampilan grafisnya (Bunga GRACE atau diagram radar).
+3.  **Visualisasi Peta Hidup GRACE:** Fokus pada pemetaan data naratif yang dihasilkan oleh model NLP (Penebusan, Kontaminasi, Agensi) ke dalam linimasa visual.
+4.  Pengujian terfokus pada **kegunaan antarmuka** dan **pemahaman informasi**, bukan pada dampak psikologis jangka panjang (yang memerlukan studi longitudinal).
+
+# 7. Estimasi Jadwal Proyek (10 Bulan)
+
+| Fase | Aktivitas Utama | Bulan 1-2 | Bulan 3-4 | Bulan 5-6 | Bulan 7-8 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Fase 1: Desain & Konseptualisasi** | Perancangan VUI/UX, Konseptualisasi Peta Hidup & Bunga GRACE. | ██████ | | | |
+| **Fase 2: Implementasi Prototipe** | Pengembangan Frontend (Visualisasi), Integrasi data GRACE Index. | | ██████ | ██████ | |
+| **Fase 3: Evaluasi** | Uji Coba Pilot, Pengumpulan data (SUS, Kualitatif). | | | ██████ | ██████ |
+| **Fase 4: Analisis & Laporan** | Analisis Data, Penulisan Tugas Akhir, Diseminasi. | | | | ██████ |
+
+***
+
+**Analogi Visualisasi GRACE**
+
+Jika sistem GRACE adalah **"Panggung Kehidupan Megah"**, maka visualisasi data ini berfungsi sebagai **panel kontrol di belakang panggung** yang disederhanakan. Panel ini tidak hanya menunjukkan apakah "lampu menyala" (Indeks GRACE yang baik), tetapi juga memproyeksikan **"naskah kehidupan"** (Peta Hidup GRACE) ke layar pribadi lansia, memungkinkan mereka untuk melihat pola cerita mereka, mengidentifikasi adegan yang kuat (Penebusan), dan merencanakan adegan besar berikutnya (Arahan Emas) dengan keyakinan penuh. Visualisasi ini memastikan protagonis tahu persis di mana mereka berada dalam cerita mereka tanpa merasa bingung oleh kompleksitas teknis tata cahaya dan *sound system* AI.
